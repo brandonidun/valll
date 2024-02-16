@@ -4,8 +4,8 @@
 
     <div class="vals">
       <div class="happy">happy</div>
-      <img class="balloon" src="/Balloon2.svg" alt="" /> Valentine's Day
-      <img class="calendar" src="/Calendar2.svg" alt="" />
+      <img class="balloon" src="/Balloon2.png" alt="" /> Valentine's Day
+      <img class="calendar" src="/Calendar2.png" alt="" />
     </div>
     <br />
     <div class="if">LIZA AIKINS</div>
@@ -16,7 +16,7 @@
       <audio id="mySong" src="/song.mp3" type="audio/mp3"></audio>
     </div>
     <div class="first-section">
-      <div class="img1"><img src="/Cupcake2.svg" alt="" /></div>
+      <div class="img1"><img src="/Cupcake2.png" alt="" /></div>
       <div class="card">
         <div class="if">6velvet cupcakes</div>
         <br />
@@ -33,7 +33,7 @@
         </div>
         moments with you"
       </div>
-      <div class="img1"><img src="/glasses2.svg" alt="" /></div>
+      <div class="img1"><img src="/glasses2.png" alt="" /></div>
     </div>
     <div class="first-section">
       <div class="img1"><img src="/arrow.png" alt="" /></div>
@@ -53,7 +53,7 @@
         <br />
         from Ghana"
       </div>
-      <div class="img1"><img src="/Chocolate2.svg" alt="" /></div>
+      <div class="img1"><img src="/Chocolate2.png" alt="" /></div>
     </div>
     <div class="answer">
       would you have been my valentine?
