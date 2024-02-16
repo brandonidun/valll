@@ -36,7 +36,7 @@
       <div class="img1"><img src="/glasses2.png" alt="" /></div>
     </div>
     <div class="first-section">
-      <div class="img1"><img src="/arrow2.png" alt="" /></div>
+      <div class="img1"><img src="/arrow.png" alt="" /></div>
       <div class="card">
         "I know you're trouble but i dont mind<br />
         <div class="if">
@@ -62,8 +62,8 @@
         <button @click="onNoClick()">no😔</button>
       </div>
       <div v-if="showYes" class="yes">
-        <a href="https://maps.app.goo.gl/qrSeTsfYEw1KZeJx9">Location</a>
-        @9:00pm?
+        <a href="https://maps.app.goo.gl/hLWRm2vjLtWgKu5x9">Location</a>
+        next weekend?
       </div>
       <div v-if="showNo" class="no">you deserve big aah bracelets</div>
       <div class="stop" id="tourTarget"></div>
