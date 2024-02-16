@@ -16,11 +16,11 @@
       <audio id="mySong" src="/song.mp3" type="audio/mp3"></audio>
     </div>
     <div class="first-section">
-      <div class="img1"><img src="/Cupcake.png" alt="" /></div>
+      <div class="img1"><img src="/Cupcake2.png" alt="" /></div>
       <div class="card">
         <div class="if">6velvet cupcakes</div>
         <br />
-        only say how much i <br />
+        could only say how much i <br />
         care about you
       </div>
     </div>
