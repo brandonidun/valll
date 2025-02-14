@@ -56,7 +56,8 @@
       <div class="img1"><img src="/Chocolate2.png" alt="" /></div>
     </div>
     <div class="answer">
-      second ask, but would you be my valentine again?
+      second ask but, <br />
+      would you be my valentine again?
       <div>
         <button @click="onYesClick()">YES😂</button>
         <button @click="onNoClick()">no😔</button>
