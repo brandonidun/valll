@@ -8,20 +8,19 @@
       <img class="calendar" src="/Calendar2.png" alt="" />
     </div>
     <br />
-    <div class="if">LIZA AIKINS</div>
+    <div class="if">LUVV</div>
     <div class="tour">
       <button @click="startTour()">Click Me to Start Tour</button>
     </div>
     <div>
-      <audio id="mySong" src="/song.mp3" type="audio/mp3"></audio>
+      <audio id="mySong" src="/Untitled.mp3" type="audio/mp3"></audio>
     </div>
     <div class="first-section">
       <div class="img1"><img src="/Cupcake2.png" alt="" /></div>
       <div class="card">
-        <div class="if">6velvet cupcakes</div>
-        <br />
-        could only say how much i <br />
-        care about you
+        <div class="if">' A cake</div>
+        could only say how much<br />
+        I care about you "
       </div>
     </div>
     <div class="first-section">
@@ -38,34 +37,35 @@
     <div class="first-section">
       <div class="img1"><img src="/arrow.png" alt="" /></div>
       <div class="card">
-        "I know you're trouble but i dont mind<br />
+        "I know you're trouble but<br />
+        i dont mind<br />
         <div class="if">
-          'Wasting <br />
-          Eyes' <br />
+          'Wasting My <br />
+          Time' <br />
         </div>
-        on you"
+        with you"
       </div>
     </div>
     <div class="first-section">
       <div class="card">
         "so, <br />
-        <div class="if">chocalatey girl</div>
+        <div class="if">Pretty Chocolate girl</div>
         <br />
         from Ghana"
       </div>
       <div class="img1"><img src="/Chocolate2.png" alt="" /></div>
     </div>
     <div class="answer">
-      would you have been my valentine?
+      second ask, but would you be my valentine again?
       <div>
         <button @click="onYesClick()">YES😂</button>
         <button @click="onNoClick()">no😔</button>
       </div>
       <div v-if="showYes" class="yes">
-        <a href="https://maps.app.goo.gl/hLWRm2vjLtWgKu5x9">Location</a>
+        <a href="https://maps.app.goo.gl/nytrczhFMcPFEpAfA">Location</a>
         next weekend?
       </div>
-      <div v-if="showNo" class="no">you deserve big aah bracelets</div>
+      <div v-if="showNo" class="no">You deserve lingeries every 14th</div>
       <div class="stop" id="tourTarget"></div>
     </div>
     <!-- <div class="img">
@@ -76,7 +76,6 @@
     </div> -->
   </div>
 </template>
-
 
 <script>
 // import emailjs from "emailjs-com";
@@ -122,7 +121,7 @@ export default {
       gsap.registerPlugin(window.ScrollToPlugin);
 
       // Your GSAP code here, for example:
-      gsap.to(window, { duration: 20, scrollTo: "#tourTarget" });
+      gsap.to(window, { duration: 30, scrollTo: "#tourTarget" });
 
       // Optionally, play audio
       const song = document.getElementById("mySong");
@@ -338,7 +337,96 @@ button:hover {
   color: black;
   margin-top: 20px;
 }
+
 /* html {
   scroll-behavior: smooth;
 } */
+
+@media screen and (max-width: 768px) {
+  #app {
+    padding: 0 50px 0 50px;
+  }
+
+  .vals {
+    font-size: 60px;
+    margin-top: 10vh;
+  }
+
+  .happy {
+    font-size: 45px;
+  }
+
+  .first-section {
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+
+  .img1 img {
+    max-height: 30vh;
+    margin: 20px 0;
+  }
+
+  .card {
+    margin: 20px 0;
+  }
+
+  .if {
+    font-size: 30px;
+  }
+
+  .answer {
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+
+  .balloon,
+  .calendar {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #app {
+    padding: 0 50px 0 50px;
+  }
+
+  .vals {
+    font-size: 40px;
+  }
+
+  .happy {
+    font-size: 30px;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+
+  .header span {
+    font-size: 12px;
+  }
+
+  .if {
+    font-size: 24px;
+  }
+
+  .answer {
+    max-width: max-content;
+    min-width: min-content;
+    font-size: 24px;
+    padding: 15px;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+  }
+
+  .balloon,
+  .calendar {
+    width: 10%;
+  }
+}
 </style>
